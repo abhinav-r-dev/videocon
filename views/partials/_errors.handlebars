@@ -1,0 +1,10 @@
+{{#if error}}
+<div class ="alert alert-danger">{{error}}</div>
+{{/if}}
+
+{{#each errors}}
+<!--number sign each used to loop through the errors-->
+<div class ="alert alert-danger">{{text}}</div>
+{{else}}
+
+{{/each}}
